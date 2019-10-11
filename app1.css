@@ -1,0 +1,46 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+
+h1 {
+    text-align: center;
+    background-color: white ;
+    cursor: pointer;
+  
+    transition: 5s 1s;
+    color:black;
+    transition: 1s;
+    
+}
+
+h1:hover {
+    background-color: rgb(90, 211, 54);
+    transform:rotate(360deg);
+    color: pink;
+    font-size:25px;
+
+}
+
+
+.menu {
+    border: 4px solid black;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:auto;
+    width: 50%;
+    line-height: 100%;
+    margin: 54px 30% 30px 0px;
+    padding:  15px 25px 3px 15px;
+    font-size: 25px;
+    text-decoration: dashed;
+    padding-inline-start: 255px;
+}
+
+.menuIn {
+    color: black;
+    background-color:rgb(90, 211);
+}
