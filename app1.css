@@ -15,7 +15,7 @@ header {
     background: #7b97ca;
 }
 
-/**header::after (all this comment toghter let the header background color show befor allways)**/
+/**header::after (all this comment toghter let the header background color show befor)**/
 header::after {
     content: '';
     display: table;
